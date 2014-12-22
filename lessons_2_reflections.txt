@@ -7,16 +7,22 @@ What value do you think it offers?
 
 It is the area where you hold files that will be in a commit. It allows us to prepare for our commi without committing.
 
--How can you use the staging area to make sure you have one commit per logical
-change?
+-How can you use the staging area to make sure you have one commit per logical change?
 
--What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+You can compare using diff the working directory to the staging area to see what has changed.
+
+-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When trying out a new feature or for other languages or accessablitiy. They keep the main branch untouched so errors are not introduced.
 
 -How do the diagrams help you visualize the branch structure?
 
--What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+Diagrams create a visual representation allowing one to see where the branches intersect/connect and how they relate. It also makes it easier to see where a bug may have been introduced.
 
--What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
-manually? 
+-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merges multiple branches into one by combining commits. So you can follow where features were introduced.
+
+-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges manually? 
+
+Auto creates less work for the user on simple merges.
